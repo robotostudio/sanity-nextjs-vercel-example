@@ -5,8 +5,8 @@
     "basePath": "/studio"
   },
   "api": {
-    "projectId": "PLACEHOLDER-SEE-README",
-    "dataset": "PLACEHOLDER-SEE-README"
+    "projectId": "replace",
+    "dataset": "replace"
   },
   "plugins": [
     "@sanity/base",
@@ -17,9 +17,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
